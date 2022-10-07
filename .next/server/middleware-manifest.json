@@ -1,0 +1,27 @@
+{
+  "sortedMiddleware": [
+    "/"
+  ],
+  "clientInfo": [
+    [
+      "/",
+      false
+    ]
+  ],
+  "middleware": {
+    "/": {
+      "env": [
+        "VERCEL_URL",
+        "VERCEL_ENV"
+      ],
+      "files": [
+        "static/chunks/webpack-middleware-378e68e29c265886.js",
+        "server/pages/_middleware.js"
+      ],
+      "name": "pages/_middleware",
+      "page": "/",
+      "regexp": "^/(?!_next).*$"
+    }
+  },
+  "version": 1
+}

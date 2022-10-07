@@ -1,7 +1,6 @@
 {
   "name": "webdocs",
   "version": "0.1.0",
- 
   "scripts": {
     "dev": "next dev",
     "bu": "next build --debug && next-sitemap && node script/run",
@@ -12,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "1.5.0",
     "feed": "4.2.2",
+    "gh-pages": "^4.0.0",
     "gray-matter": "4.0.3",
     "htmlparser2": "7.2.0",
     "isomorphic-git": "1.17.0",
@@ -19,7 +19,6 @@
     "next": "12.0.4",
     "next-sitemap": "2.5.14",
     "nextjs": "0.0.3",
-  
     "nextra-theme-docs": "2.0.0-beta.5",
     "prettier": "2.5.1",
     "react": "17.0.2",
