@@ -1,13 +1,13 @@
 {
   "name": "webdocs",
   "version": "0.1.0",
-  "private": true,
+ 
   "scripts": {
     "dev": "next dev",
     "bu": "next build --debug && next-sitemap && node script/run",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export -o ../docs"
+    "export": "next build && next export -o"
   },
   "dependencies": {
     "@headlessui/react": "1.5.0",
@@ -19,7 +19,7 @@
     "next": "12.0.4",
     "next-sitemap": "2.5.14",
     "nextjs": "0.0.3",
-    "nextra": "2.0.0-beta.5",
+  
     "nextra-theme-docs": "2.0.0-beta.5",
     "prettier": "2.5.1",
     "react": "17.0.2",
